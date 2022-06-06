@@ -1,6 +1,6 @@
 # My CV
 ---
-**## Klim Dmitry**
+### Klim Dmitry
 ---
 ## About me
 Furniture designer. I want to learn a new profession of a front-end developer.
