@@ -6,48 +6,68 @@
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>СМ3</title>
    <link rel="stylesheet" href="style.css">
-   <link rel="icon" href="assets/favicon">
+   <link rel="icon" href="assets/favicon.ico">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Fascinate&family=Roboto:wght@300&display=swap" 
 rel="stylesheet">
 </head>
 <body>
-<header class="header"><h1>My CV</h1>
+<header class="header">
+   <div class="container">
+   <h1>My CV</h1>
    <img src="screen.jpg" width="300" height="250"  alt="my foto">
 
    <h2>  Klim Dzmitry </h2>
+   </div>
+   <nav class="nav">
+      <ul class="nav-list">
+         <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+         <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+         <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+         <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+         <li class="nav-item"><a href="#code_example" class="nav-link">Code example</a></li>
+         <li class="nav-item"><a href="#English_level" class="nav-link">English level</a></li>
+      </ul>
+   </nav>
 </header>
 
    <main class="main">
-    About me
+      <div class="container">
+    <p id="summary"><h2>Summary</h2>
+    </p>
    Furniture designer. I want to learn a new profession of a front-end developer.
-    Contacts
-   E-mail* 010dima56@mail.ru
    
-   GitHub* [010dima56](https://github.com/010dima56 "My Profile GitHub")
+   <p id="contacts"><h2>Contacts</h2>
+   </p>
    
-    EDUCATION
+   E-mail: 010dima56@mail.ru
+<br>
+
+   GitHub: (https://github.com/010dima56 "My Profile GitHub")
+   
+   <p id="education"> <h2>Education</h2>  </p>
    
    Belarusian National Technical University
 
-   <h3>Skills</h3> 
-   * HTML
-   * sketch UP
-   * excel
-   ---
-   
-    Code Example
+   <p id="skills"><h2>Skills</h2>  </p>
+   <ul>
+      <li>HTML</li>
+      <li>Sketch UP</li>
+   <li>Excel</li> </ul>
+      
+   <p id="code_example"><h2>Code Example</h2> </p>
    
    <code><xmp>
    <script>
       alert('Привет, мир!');
    </script>
    </code></xmp>
-   ```
+  
    
-   ## English level
-   intermidiate (b1)
+   <p id="english_level"><h2>English level</h2></p>
+   intermidiate (B1)
+   </div>
    </main> 
-   <footer > Created By Dzmitry Klim</footer>
+   <footer > <div class="container"> Created By Dzmitry Klim https://github.com/010dima56 2022</div></footer>
 </body>
 </html>
